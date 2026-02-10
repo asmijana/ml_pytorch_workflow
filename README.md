@@ -18,22 +18,21 @@ This repo demonstrates an end-to-end PyTorch machine learning workflow for regre
 Uses **California Housing** (scikit-learn) and exports it to CSV.  
 Total datapoints: 14448 (train) + 3096 (val) + 3096 (test)  
 Features: MedInc, HouseAge, AveRooms, AveBedrms, Population, AveOccup, Latitude, Longitude  
-Target Feature: MedHouseVal 
-X_shape: (20640, 8)  
+Target Feature: MedHouseVal   
+X_shape: (20640, 8)    
 y_shape: (20640, 1)
 
 ## Model
-Uses Multilayer Perceptron, a fully-connected neural network with an input layer, two hidden layers, and an output layer.  
+Uses Multilayer Perceptron, a fully-connected neural network with an input layer, two hidden layers, and an output layer  
 Number of neurons:  
-  Input layer    : 8 
-  Hidden layer 1 : 128 (Linear + ReLU + dropout)  
-  Hidden layer 2 : 64  (Linear + ReLU + dropout)
-  Output layer   : 1   (Linear)
-Optimizer: Adam (lr=1E-3, weight_decay=1E-5)  
-Loss function: Mean Squared Error loss  
+  Input layer    : 8   
+  Hidden layer 1 : 128 (Linear + ReLU + dropout)    
+  Hidden layer 2 : 64  (Linear + ReLU + dropout)  
+  Output layer   : 1   (Linear)  
+Optimizer: Adam (lr=1E-3, weight_decay=1E-5)    
+Loss function: Mean Squared Error loss    
 
-## Overall Metrics
-For best checkpoint  
+## Overall Metrics  
 Train loss: 0.2503  
 Validation loss: 0.2614  
 Test loss: 0.2333  
