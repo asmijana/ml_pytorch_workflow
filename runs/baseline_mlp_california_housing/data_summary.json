@@ -1,0 +1,16 @@
+{
+  "features": [
+    "MedInc",
+    "HouseAge",
+    "AveRooms",
+    "AveBedrms",
+    "Population",
+    "AveOccup",
+    "Latitude",
+    "Longitude"
+  ],
+  "n_train": 14448,
+  "n_val": 3096,
+  "n_test": 3096,
+  "device": "cpu"
+}
